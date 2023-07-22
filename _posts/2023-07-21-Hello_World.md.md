@@ -16,6 +16,7 @@ jfas;ldkfja;lsdkfj
 * sup
 * say
 * so
+* YoS
 
 ```bash
 sudo apt update && sudo apt upgrade -y
