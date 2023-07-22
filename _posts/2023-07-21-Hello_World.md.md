@@ -15,13 +15,13 @@ My name is Farzahn Farange and I am an IT Systems Engineer currenlty working at 
 
 My partner Alex and I, have two pet babies Appa (Alaskan Klee Kai) and Momo (Flame Point Siamese) More about them later on. 
 
-### My Two Chonky Bois
+## My Two Chonky Bois
 
-#### Appa
+### Appa
 Appa is my six year old chonky Alaskan Klee Kai. He has been in our famaily since he was just 7 weeks and currently lives with my parents (more on why below). 
 ![Appa](https://raw.githubusercontent.com/farzahn/assets/main/appa.jpg)
 
-#### Momo
+### Momo
 Momo (aka Momiji) is my, equally chunky, six year old Flame Point Siamese. I met Momo when I met my partner, when he was just one year old. 
 ![Momo](https://raw.githubusercontent.com/farzahn/assets/main/momo.jpg)
 
