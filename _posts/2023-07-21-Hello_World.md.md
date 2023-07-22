@@ -19,6 +19,7 @@ jfas;ldkfja;lsdkfj
 * YoS
 * Tengo
 * soyman
+* saimen
 
 ```bash
 sudo apt update && sudo apt upgrade -y
