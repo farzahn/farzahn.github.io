@@ -1,7 +1,7 @@
 ---
 title: Test Post
 date: 2024-03-02 20:58:00 -700
-categories: [Networking,Servers]
+categories: [Networking]
 tags: [network,security,server]
 ---
 
