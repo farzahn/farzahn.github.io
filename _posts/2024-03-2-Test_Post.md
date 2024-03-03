@@ -6,7 +6,7 @@ tags: [network,security,server]
 ---
 
 
-# Network and Server Setup Considerations
+# (ChatGPT) Network and Server Setup Considerations
 
 ## 1. Requirements Analysis:
 
@@ -61,7 +61,7 @@ A well-planned and executed network and server setup is fundamental to the succe
 ---------------------------------------------------------
 
 
-# Considerations when setting up a network and servers
+# (Copilot) Considerations when setting up a network and servers
 
 When setting up a network and servers, there are several important considerations to keep in mind. These include:
 
