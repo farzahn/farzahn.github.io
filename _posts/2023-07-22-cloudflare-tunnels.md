@@ -6,22 +6,25 @@ tags: [cloudflare,cloudflare_tunnels,ubuntu,reverse_proxy]
 ---
 
 # What are Cloudflare Tunnels?
-Cloudflare(CF) Tunnels are an easy to use reverse proxy solution create by Cloudflare for expose internal services securly to the public internet. The package used to create these tunnels is called cloudflared, and is available for install on many different platforms and Operating Systemss. In this guide, I will be using Ubuntu as my OS and following Cloudflare's documentation for Debian-based x86 64-bit systems.
+
+Cloudflare (CF) Tunnels are an easy-to-use reverse proxy solution created by Cloudflare to securely expose internal services to the public internet. The package used to create these tunnels is called "cloudflared," and it is available for installation on various platforms and operating systems. In this guide, I will be using Ubuntu as my OS and following Cloudflare's documentation for Debian-based x86 64-bit systems.
 
 ## My Use Case
-I host many services in my homelab, some of which I would like to easily share with friends and family. Cloudflare Tunnels makes this extremly simple by allowing me to define a list of IP Addresses on my local network, which will then use the Cloudflared package to create a secure tunnel out to the Cloudflare and automatically update my Cloudflare DNS records to match. From there I can use Cloudflare Zero Trust to lockdown who has access to which domains. 
 
-Once example of a service I expose to the public internet is Proxmox VE. One of my family members was learning python and wanted to spin-up an Ubuntu VM to use for building and testing their code. Unfortunatly the laptop they had at the time did not provide the nessesary resources to run a VM and support the host. 
+I host many services in my homelab, some of which I would like to easily share with friends and family. Cloudflare Tunnels make this extremely simple by allowing me to define a list of IP addresses on my local network. These addresses will then use the "cloudflared" package to create a secure tunnel out to Cloudflare and automatically update my Cloudflare DNS records to match. From there, I can use Cloudflare Zero Trust to lock down who has access to which domains.
 
-To solve for this, I grabbed one of my spare Intel NUCs and installed a fresh instance of Proxmox VE. Then after creating a sperate network and setting up some firewall rules on my Unifi Network (Outside the scope of this documentation), I went ahead and listed the IP Address of the new Proxmox server into Cloudflare Tunnels and viola, Proxmox was now available to them via any old browser. 
+An example of a service I expose to the public internet is Proxmox VE. One of my family members was learning Python and wanted to spin up an Ubuntu VM to use for building and testing their code. Unfortunately, the laptop they had at the time did not provide the necessary resources to run a VM and support the host.
 
-Additionally, I wan able to utilize Cloudflare Zero Trust to setup security around the page and only allow users specified in an access group to have access to the server. 
+To solve this issue, I grabbed one of my spare Intel NUCs and installed a fresh instance of Proxmox VE. After creating a separate network and setting up some firewall rules on my Unifi Network (outside the scope of this documentation), I listed the IP address of the new Proxmox server into Cloudflare Tunnels, and voila, Proxmox was now available to them via any browser.
 
-## How to setup Cloudflare Tunnels
+Additionally, I was able to utilize Cloudflare Zero Trust to set up security around the page and only allow users specified in an access group to have access to the server.
+
+## How to Set up Cloudflare Tunnels
 
 ### Configure Cloudflare Zero Trust
 
 ### Configure Ubuntu Server
+
 
 
 
