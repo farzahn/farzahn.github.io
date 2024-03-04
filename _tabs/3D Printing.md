@@ -5,7 +5,6 @@ order: 4
 ---
 
 ## Flat Rate 3D Printing Service
-
-### Model: Elegoo Neptune 3 Plus
+Model: Elegoo Neptune 3 Plus
 
 More Info Soon...
