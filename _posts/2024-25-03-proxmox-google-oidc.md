@@ -1,6 +1,6 @@
 ---
 title: Proxmox Authentication with Google OAuth
-date: 2024-03-03 17:30:00 -700
+date: 2024-03-25 17:30:00 -700
 categories: [Proxmox]
 tags: [proxmox,server,oidc,oauth,google,auth,authentication]
 ---
