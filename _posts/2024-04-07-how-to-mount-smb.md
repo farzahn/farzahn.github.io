@@ -1,7 +1,7 @@
 ---
 title: How to Mount an SMB Share
 date: 2024-04-07 12:47:00 -700
-categories: [Proxmox]
+categories: [Truenas]
 tags: [ubuntu,proxmox,smb,mount,storage]
 ---
 
@@ -92,4 +92,29 @@ sudo mount -a
 
 This command will mount all entries in `/etc/fstab` that have the `auto` option set. It's particularly useful for testing if your newly added SMB share entry is correctly configured in `/etc/fstab`.
 
-That's it! You have successfully mounted an SMB share to your Ubuntu Server. You can now access the files and directories as needed.
+## Adding SMB Share in Proxmox
+
+If you're using Proxmox, you can add an SMB share as a storage option. Here's how:
+
+1. Log in to the Proxmox web interface.
+
+2. Navigate to "Datacenter" in the left sidebar.
+
+3. Click on "Storage" in the top menu.
+
+4. Click the "Add" button.
+
+5. Choose "CIFS" from the dropdown menu.
+
+6. Fill in the required information:
+   - ID: A unique identifier for the storage (e.g., `smb_storage`).
+   - Server: The IP address or hostname of the SMB server.
+   - Share: The name of the shared folder.
+   - Username: Your username for accessing the SMB share.
+   - Password: Your password for accessing the SMB share.
+
+7. Click "Add" to save the configuration.
+
+8. Once added, you can use this SMB share as storage for your Proxmox virtual machines or containers.
+
+That's it! You have successfully mounted an SMB share to your Ubuntu Server and added an SMB share as storage in Proxmox. You can now access and use the shared files and directories as needed.
