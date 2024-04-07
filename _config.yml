@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: ~/farzahn.github.io/assets/lib/1696409445742.jpg
+avatar: home/farzahn/farzahn.github.io/assets/lib/1696409445742.jpg
 
 # boolean type, the global switch for TOC in posts.
 toc: true
