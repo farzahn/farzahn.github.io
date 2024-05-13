@@ -9,8 +9,8 @@ tags: [lightsaber,starwars,saber,arduino,proffie,fett263]
 
 A Proffie Saber is a type of lightsaber that uses the Proffieboard, an open-source lightsaber controller. It's known for its high level of customization and ability to support complex features like smooth swing, multiple sound fonts, and blade effects.
 
-
-```## Example Code
+```
+## Example Code
 #ifdef CONFIG_TOP
 #include "proffieboard_v2_config.h"
 #define NUM_BLADES 3
